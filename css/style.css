@@ -45,7 +45,25 @@ header{
     justify-content: space-between;
 }
 
+.navbar > *{
+   flex-basis: 20%;
+   padding: 15px 0;
+   background-color: #daa520;
+}
 .navbar-menu{
     flex-grow: 1;
     text-align: center;
+}
+
+.jumbotron {
+    background-color: #00008b;
+    height: 500px;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron-content{
+    background-color: #ee82ee;
+    width: 50%;
 }
