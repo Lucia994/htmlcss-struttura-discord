@@ -98,3 +98,8 @@ section{
     flex-basis: 40%;
     background-color: #ffc0cb;
 }
+
+.full-color{
+    flex-basis: 100%;
+    background-color: #228b22;
+}
